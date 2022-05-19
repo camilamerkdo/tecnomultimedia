@@ -21,6 +21,12 @@ void setup (){
   size (800,800);
   background (30, 230, 240);
   
+   for (int i = 20 ; i <= 700; i += 20) {
+  if ((i < 350) || (i > 300)) {
+    line(0, i, 800, i);
+  }
+}
+
   //asignacion 
   
   colores = random (220,250);
