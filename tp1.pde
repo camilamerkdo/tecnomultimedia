@@ -68,8 +68,17 @@ void draw (){
  text ("Isao Takahata", 525, 400);
  text ("Toshio Suzuki", 525, 450);
  text ("Toru Hara", 585, 500);
+ 
+   fill (0, 0, 255);
+   noStroke ();
+   
+ ellipse(mouseX, mouseY, 10, 10);
+ println (mouseX, mouseY);
+ 
  }
+ 
  //pantalla 2
+ 
   if (key == '2'){
     
 
@@ -88,6 +97,13 @@ void draw (){
  text ("Joe Hisaishi", 50, 250);
  text ("Hisao Shirai", 50, 350);
  text ("Takeshi Seyama", 50, 450);
+ 
+   fill (0, 0, 255);
+   noStroke ();
+   
+ ellipse(mouseX, mouseY, 10, 10);
+ println (mouseX, mouseY);
+ 
   }
   
  //pantalla 3
@@ -114,6 +130,13 @@ void draw (){
  text ("Shigesato Itoi", 30, 520);
  text ("Shigeru Chiba", 30, 570);
  text ("Ikue Ōtani", 30, 620);
+ 
+   fill (0, 0, 255);
+   noStroke ();
+   
+ ellipse(mouseX, mouseY, 10, 10);
+ println (mouseX, mouseY);
+ 
   }
   
  //pantalla 4 
@@ -137,6 +160,13 @@ void draw (){
  text ("Eugene H. Saburi", 30, 470);
  text ("Takashi Watanabe", 30, 520);
  text ("Shin Kazuhara", 30, 570);
+ 
+   fill (0, 0, 255);
+   noStroke ();
+   
+ ellipse(mouseX, mouseY, 10, 10);
+ println (mouseX, mouseY);
+ 
   }
  
 //Pantalla 5
@@ -158,6 +188,11 @@ void draw (){
  image (foto5, 0, 0); 
  image (foto6, -2050 + (mivariable), 0, 2900, 800);
   }
+   fill (0, 0, 255);
+   noStroke ();
+   
+ ellipse(mouseX, mouseY, 10, 10);
+ println (mouseX, mouseY);
  
 }
 
